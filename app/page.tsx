@@ -28,9 +28,11 @@ import {
   Triangle,
   Square
 } from "lucide-react";
+import { useTheme } from "next-themes";
 
 export default function Index() {
-  const [darkMode, setDarkMode] = useState(false);
+  // const [darkMode, setDarkMode] = useState(false);
+  const { theme, setTheme } = useTheme();
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
@@ -51,10 +53,10 @@ export default function Index() {
     };
   }, []);
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    document.documentElement.classList.toggle('dark');
-  };
+  // const toggleDarkMode = () => {
+  //   setDarkMode(!darkMode);
+  //   document.documentElement.classList.toggle('dark');
+  // };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -207,10 +209,13 @@ export default function Index() {
             <Button
               variant="ghost"
               size="icon"
-              onClick={toggleDarkMode}
+              // onClick={toggleDarkMode}
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               className="w-8 h-8 rounded-full"
             >
-              {darkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+              {/* {darkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />} */}
+              {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+
             </Button>
           </div>
         </div>
