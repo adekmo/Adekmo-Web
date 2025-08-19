@@ -27,21 +27,21 @@ const About = () => {
               
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a passionate web developer focused on creating <strong className="text-foreground">minimal, functional, and beautiful</strong> digital experiences.
+                  I'm a passionate web developer focused on creating <strong className="text-foreground">building sleek, scalable, and user-friendly</strong> digital experiences.
                 </p>
                 <p>
-                  Specialized in modern frontend technologies with a keen eye for design and user experience. Every project is an opportunity to push boundaries and create something extraordinary.
+                  With expertise in modern frontend technologies and a passion for design, I strive to bridge functionality and aesthetics in every project. My goal is to deliver digital products that not only work flawlessly but also delight users.
                 </p>
               </div>
 
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <div className="text-sm text-muted-foreground uppercase tracking-widest">Expertise</div>
-                  <div className="text-lg font-medium">Frontend Development</div>
+                  <div className="text-lg font-medium">Fullstack Development</div>
                 </div>
                 <div className="space-y-2">
                   <div className="text-sm text-muted-foreground uppercase tracking-widest">Focus</div>
-                  <div className="text-lg font-medium">User Experience</div>
+                  <div className="text-lg font-medium">Seamless User Experience</div>
                 </div>
               </div>
             </div>

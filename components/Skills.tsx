@@ -1,4 +1,4 @@
-import { Circle, Code2, Database, Figma, GitBranch, Sparkles, Square, Triangle, Zap } from "lucide-react";
+import { Circle, Code2, Database, Figma, GitBranch, Hexagon, Sparkles, Square, Triangle, Type, Zap } from "lucide-react";
 
 const Skills = () => {
 
@@ -10,8 +10,8 @@ const Skills = () => {
         { name: "Next.js", level: 80, color: "from-white via-gray-400 to-black", icon: <Square className="w-6 h-6" /> },
         { name: "Tailwind", level: 92, color: "from-teal-400 via-cyan-500 to-black", icon: <Sparkles className="w-6 h-6" /> },
         { name: "MongoDB", level: 75, color: "from-green-400 via-emerald-500 to-black", icon: <Database className="w-6 h-6" /> },
-        { name: "Git", level: 85, color: "from-red-500 via-pink-500 to-black", icon: <GitBranch className="w-6 h-6" /> },
-        { name: "Figma", level: 70, color: "from-purple-500 via-pink-500 to-black", icon: <Figma className="w-6 h-6" /> },
+        { name: "NodeJS", level: 70, color: "from-red-500 via-pink-500 to-black", icon: <Hexagon className="w-6 h-6" /> },
+        { name: "Typescript", level: 75, color: "from-purple-500 via-pink-500 to-black", icon: <Type className="w-6 h-6" /> },
     ];
   return (
     <section id="skills" className="py-32 px-6 bg-gradient-to-br from-slate-700/20 via-blue-600/12 to-teal-600/20 relative">

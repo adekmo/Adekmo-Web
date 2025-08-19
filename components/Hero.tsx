@@ -26,7 +26,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Crafting digital experiences with minimal aesthetics and maximum impact
+              Transforming ideas into meaningful interfaces that inspire and engage.
             </p>
           </div>
           

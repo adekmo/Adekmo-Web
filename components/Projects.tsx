@@ -2,27 +2,28 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/
 import { Badge } from './ui/badge'
 import { Button } from './ui/button'
 import { ExternalLink, Github } from 'lucide-react'
+import Link from 'next/link'
 
 const Projects = () => {
 
     const projects = [
         {
-        title: "E-commerce Platform",
-        description: "Minimalist shopping experience dengan micro-interactions dan performansi optimal.",
-        tech: ["Next.js", "TypeScript", "Stripe"],
+        title: "Travel Marketplace (Travoo)",
+        description: "Travoo is a modern travel marketplace platform that connects customers with trusted travel agents, making it easy to book travel packages quickly, securely, and transparently.",
+        tech: ["Next.js", "TypeScript", "MongoDb"],
         gradient: "from-purple-600 via-pink-500 to-black",
         accent: "from-purple-400 to-pink-400",
-        demo: "#",
-        github: "#"
+        demo: "https://travo-lake.vercel.app/packages",
+        github: "https://github.com/adekmo/travo"
         },
         {
-        title: "Hotel Booking App",
-        description: "Interface yang clean dengan search yang powerful dan booking yang seamless.",
-        tech: ["React", "Node.js", "MongoDB"],
+        title: "KamuTube",
+        description: "Kamutube is Youtube Clone where users can upload, watch, and engage with content seamlessly—just like YouTube, but built with our own unique touch",
+        tech: ["React", "Material UI", "RapidAPI"],
         gradient: "from-blue-600 via-cyan-500 to-black",
         accent: "from-blue-400 to-cyan-400",
-        demo: "#",
-        github: "#"
+        demo: "https://kamutube.netlify.app/",
+        github: "https://github.com/adekmo/KamuTube"
         },
         {
         title: "Travel Stories",
@@ -94,12 +95,16 @@ const Projects = () => {
                   </div>
                   <div className="absolute bottom-4 right-4">
                     <div className="flex gap-2">
-                      <Button size="icon" variant="secondary" className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-sm border-0 hover:bg-white/30">
-                        <ExternalLink className="w-4 h-4 text-white" />
-                      </Button>
-                      <Button size="icon" variant="secondary" className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-sm border-0 hover:bg-white/30">
-                        <Github className="w-4 h-4 text-white" />
-                      </Button>
+                      <Link href={project.demo}>
+                          <Button size="icon" variant="secondary" className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-sm border-0 hover:bg-white/30">
+                            <ExternalLink className="w-4 h-4 text-white" />
+                          </Button>
+                      </Link>
+                      <Link href={project.github}>
+                        <Button size="icon" variant="secondary" className="w-8 h-8 rounded-full bg-white/20 backdrop-blur-sm border-0 hover:bg-white/30">
+                          <Github className="w-4 h-4 text-white" />
+                        </Button>
+                      </Link>
                     </div>
                   </div>
                 </div>
