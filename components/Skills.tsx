@@ -8,7 +8,7 @@ const Skills = () => {
         { name: "JavaScript", level: 88, color: "from-yellow-400 via-orange-500 to-black", icon: <Zap className="w-6 h-6" /> },
         { name: "React", level: 85, color: "from-cyan-400 via-blue-500 to-black", icon: <Triangle className="w-6 h-6" /> },
         { name: "Next.js", level: 80, color: "from-white via-gray-400 to-black", icon: <Square className="w-6 h-6" /> },
-        { name: "Tailwind", level: 92, color: "from-teal-400 via-cyan-500 to-black", icon: <Sparkles className="w-6 h-6" /> },
+        { name: "Tailwind", level: 83, color: "from-teal-400 via-cyan-500 to-black", icon: <Sparkles className="w-6 h-6" /> },
         { name: "MongoDB", level: 75, color: "from-green-400 via-emerald-500 to-black", icon: <Database className="w-6 h-6" /> },
         { name: "NodeJS", level: 70, color: "from-red-500 via-pink-500 to-black", icon: <Hexagon className="w-6 h-6" /> },
         { name: "Typescript", level: 75, color: "from-purple-500 via-pink-500 to-black", icon: <Type className="w-6 h-6" /> },

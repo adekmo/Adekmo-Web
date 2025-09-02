@@ -54,7 +54,7 @@ const Hero = () => {
               <div className="text-xs text-muted-foreground uppercase tracking-widest">Years</div>
             </div>
             <div className="text-center border-r border-border/30 pr-8">
-              <div className="text-2xl font-bold">15+</div>
+              <div className="text-2xl font-bold">10+</div>
               <div className="text-xs text-muted-foreground uppercase tracking-widest">Projects</div>
             </div>
             <div className="text-center">

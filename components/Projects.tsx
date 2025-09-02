@@ -10,29 +10,11 @@ const Projects = () => {
         {
         title: "Travel Marketplace (Travoo)",
         description: "Travoo is a modern travel marketplace platform that connects customers with trusted travel agents, making it easy to book travel packages quickly, securely, and transparently.",
-        tech: ["Next.js", "TypeScript", "MongoDb"],
+        tech: ["Next.js", "TypeScript", "Tailwind", "MongoDb"],
         gradient: "from-purple-600 via-pink-500 to-black",
         accent: "from-purple-400 to-pink-400",
         demo: "https://travo-lake.vercel.app/packages",
         github: "https://github.com/adekmo/travo"
-        },
-        {
-        title: "KamuTube",
-        description: "Kamutube is Youtube Clone where users can upload, watch, and engage with content seamlessly—just like YouTube, but built with our own unique touch",
-        tech: ["React", "Material UI", "RapidAPI"],
-        gradient: "from-blue-600 via-cyan-500 to-black",
-        accent: "from-blue-400 to-cyan-400",
-        demo: "https://kamutube.netlify.app/",
-        github: "https://github.com/adekmo/KamuTube"
-        },
-        {
-        title: "Travel Stories",
-        description: "Platform storytelling dengan design yang immersive dan community yang aktif.",
-        tech: ["Next.js", "Prisma", "Tailwind"],
-        gradient: "from-green-600 via-teal-500 to-black",
-        accent: "from-green-400 to-teal-400",
-        demo: "#",
-        github: "#"
         },
         {
         title: "Analytics Dashboard",
@@ -44,22 +26,40 @@ const Projects = () => {
         github: "#"
         },
         {
-        title: "Task Manager Pro",
-        description: "Productivity tool dengan AI integration dan smart scheduling.",
-        tech: ["Next.js", "OpenAI", "PostgreSQL"],
-        gradient: "from-indigo-600 via-purple-500 to-black",
-        accent: "from-indigo-400 to-purple-400",
-        demo: "#",
-        github: "#"
+        title: "KamuTube",
+        description: "Kamutube is Youtube Clone where users can upload, watch, and engage with content seamlessly—just like YouTube, but built with our own unique touch",
+        tech: ["React", "Material UI", "RapidAPI"],
+        gradient: "from-blue-600 via-cyan-500 to-black",
+        accent: "from-blue-400 to-cyan-400",
+        demo: "https://kamutube.netlify.app/",
+        github: "https://github.com/adekmo/KamuTube"
         },
         {
-        title: "Weather Intelligence",
-        description: "Weather app dengan predictive analytics dan beautiful visualizations.",
-        tech: ["React", "Python", "TensorFlow"],
+        title: "DX GYM",
+        description: "Simple Gym App with RapidApi data (No longer update).",
+        tech: ["React", "RapidAPI", "Vite"],
         gradient: "from-cyan-600 via-blue-500 to-black",
         accent: "from-cyan-400 to-blue-400",
-        demo: "#",
-        github: "#"
+        demo: "https://gym-app-react-vite.vercel.app/",
+        github: "https://github.com/adekmo/GymAppReact-Vite"
+        },
+        {
+        title: "SushiMan",
+        description: "Landing Page Sushi Store with AOS animation",
+        tech: ["HTML", "CSS", "JS"],
+        gradient: "from-green-600 via-teal-500 to-black",
+        accent: "from-green-400 to-teal-400",
+        demo: "https://slice-sushi.vercel.app/",
+        github: "https://github.com/adekmo/LandingPage"
+        },
+        {
+        title: "Dashboard UI",
+        description: "UI Dashboard with Responsive design and Darkmode. Playing with Flexbox and Grid CSS",
+        tech: ["HTML", "CSS", "JS"],
+        gradient: "from-indigo-600 via-purple-500 to-black",
+        accent: "from-indigo-400 to-purple-400",
+        demo: "https://flex-grid-play.vercel.app/",
+        github: "https://github.com/adekmo/flex-grid-play"
         }
     ];
   return (
