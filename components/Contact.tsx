@@ -22,7 +22,7 @@ const Contact = () => {
               Get In Touch
             </div>
             <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-6">
-              Let's Create Something
+              Lets Create Something
               <span className="block bg-gradient-to-r from-purple-600 via-pink-500 to-orange-500 bg-clip-text text-transparent">
                 Amazing
               </span>

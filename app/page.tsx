@@ -15,23 +15,23 @@ import Footer from "@/components/Footer";
 
 export default function Index() {
   const [showBackToTop, setShowBackToTop] = useState(false);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  // const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const handleScroll = () => {
       setShowBackToTop(window.scrollY > 300);
     };
 
-    const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
-    };
+    // const handleMouseMove = (e: MouseEvent) => {
+    //   setMousePosition({ x: e.clientX, y: e.clientY });
+    // };
 
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('mousemove', handleMouseMove);
-    };
+    // window.addEventListener('scroll', handleScroll);
+    // window.addEventListener('mousemove', handleMouseMove);
+    // return () => {
+    //   window.removeEventListener('scroll', handleScroll);
+    //   window.removeEventListener('mousemove', handleMouseMove);
+    // };
   }, []);
 
   const scrollToTop = () => {

@@ -27,7 +27,7 @@ const About = () => {
               
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a passionate web developer focused on creating <strong className="text-foreground">building sleek, scalable, and user-friendly</strong> digital experiences.
+                  Im a passionate web developer focused on creating <strong className="text-foreground">building sleek, scalable, and user-friendly</strong> digital experiences.
                 </p>
                 <p>
                   With expertise in modern frontend technologies and a passion for design, I strive to bridge functionality and aesthetics in every project. My goal is to deliver digital products that not only work flawlessly but also delight users.

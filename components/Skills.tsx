@@ -1,4 +1,4 @@
-import { Circle, Code2, Database, Figma, GitBranch, Hexagon, Sparkles, Square, Triangle, Type, Zap } from "lucide-react";
+import { Circle, Code2, Database, Hexagon, Sparkles, Square, Triangle, Type, Zap } from "lucide-react";
 
 const Skills = () => {
 

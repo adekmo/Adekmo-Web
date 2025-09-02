@@ -53,7 +53,7 @@ const Testimonials = () => {
                   </div>
                   
                   <blockquote className="text-lg leading-relaxed italic">
-                    "{testimonial.content}"
+                    {testimonial.content}
                   </blockquote>
                   
                   <div className="space-y-1">
