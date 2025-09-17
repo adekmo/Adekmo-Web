@@ -17,13 +17,13 @@ const Projects = () => {
         github: "https://github.com/adekmo/travo"
         },
         {
-        title: "Analytics Dashboard",
-        description: "Data visualization yang elegant dengan real-time updates dan insights.",
-        tech: ["React", "D3.js", "WebSocket"],
+        title: "WeebFlix",
+        description: "Weebflix is an anime streaming web application. It features a modern Netflix-style UI with spotlight anime, detailed anime pages, episode streaming, and daily/weekly release schedules. Data is fetched in real-time from the HiAnime API through RapidAPI, ensuring fresh and up-to-date content.",
+        tech: ["React", "Typescript", "Tailwind", "RapidApi"],
         gradient: "from-orange-600 via-red-500 to-black",
         accent: "from-orange-400 to-red-400",
-        demo: "#",
-        github: "#"
+        demo: "https://weebflix.vercel.app/",
+        github: "https://github.com/adekmo/weebflix"
         },
         {
         title: "KamuTube",
