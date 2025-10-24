@@ -17,6 +17,15 @@ const Projects = () => {
         github: "https://github.com/adekmo/travo"
         },
         {
+        title: "NutriCAre",
+        description: "Nutricare is a Nutritionist Booking Platform.",
+        tech: ["NextJS", "Typescript", "Tailwind", "Shadcn", "MongoDb"],
+        gradient: "from-cyan-600 via-blue-500 to-black",
+        accent: "from-cyan-400 to-blue-400",
+        demo: "https://health-booking-ten.vercel.app/",
+        github: "https://github.com/adekmo/health-booking"
+        },
+        {
         title: "WeebFlix",
         description: "Weebflix is an anime streaming web application. It features a modern Netflix-style UI with spotlight anime, detailed anime pages, episode streaming, and daily/weekly release schedules. Data is fetched in real-time from the HiAnime API through RapidAPI, ensuring fresh and up-to-date content.",
         tech: ["React", "Typescript", "Tailwind", "RapidApi"],
@@ -33,15 +42,6 @@ const Projects = () => {
         accent: "from-blue-400 to-cyan-400",
         demo: "https://kamutube.netlify.app/",
         github: "https://github.com/adekmo/KamuTube"
-        },
-        {
-        title: "DX GYM",
-        description: "Simple Gym App with RapidApi data (No longer update).",
-        tech: ["React", "RapidAPI", "Vite"],
-        gradient: "from-cyan-600 via-blue-500 to-black",
-        accent: "from-cyan-400 to-blue-400",
-        demo: "https://gym-app-react-vite.vercel.app/",
-        github: "https://github.com/adekmo/GymAppReact-Vite"
         },
         {
         title: "SushiMan",
